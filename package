@@ -1,0 +1,13 @@
+{
+  "name": "hw4-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js project for Jenkins homework",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js",
+    "build": "npm pack"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
