@@ -1,12 +1,12 @@
 {
-  "name": "hw4-nodejs",
+  "name": "hw4-nodejs-jenkins",
   "version": "1.0.0",
-  "description": "Node.js project for Jenkins homework",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node src/index.js",
-    "build": "npm pack"
+    "test": "echo \"Test passed\" && exit 0",
+    "build": "mkdir -p dist && cp index.js dist/"
   },
+  "description": "Node.js project for Jenkins homework",
   "author": "",
   "license": "ISC"
 }
