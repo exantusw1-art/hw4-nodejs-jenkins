@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "hw4-nodejs-jenkins",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,3 +11,16 @@
   "author": "",
   "license": "ISC"
 }
+=======
+  "name": "my-jenkins-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+>>>>>>> 4cc1a359c09ee76dd13ca3b5c151da76f59643d6
