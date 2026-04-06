@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'git@github.com:exantusw1-art/hw4-nodejs-jenkins.git'
-            }
-        }
-
         stage('Install') {
             steps {
                 sh 'npm install'
